@@ -1,8 +1,8 @@
 # RC522-auth
-Authentication of UID from cards with CSV provided file with data. The idea behind using the CSV type of data is so that the file is compatible and reusable with other services and platforms.
+Authentication of UID from cards with CSV provided file with data. The idea behind using the CSV type of data is that the file is reusable and compatible with other services and platforms.
 
 ## CSV file
-The CSV file format is UID;Name;Authorization which is basically the **UID** of the card, **Name** of the user and the **Authorization** status (true/false).
+The **authorized.csv** file format is UID;Name;Authorization which is basically the **UID** of the card, **Name** of the user and the **Authorization** status (true/false).
 
 ## LED light status
 The LED light connected on **GPIO 18** is used to determine the status whether the card is authorized or not. 

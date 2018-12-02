@@ -1,5 +1,4 @@
 # RC522-auth
-==============
 Authentication of UID from cards with CSV provided file with data. The CSV file format is UID;Name;Authorization which is basically the **UID** of the card, **Name** of the user and the **Authorization** status (true/false).
 
 ## LED light status
